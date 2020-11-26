@@ -49,7 +49,7 @@
                 }
            }
             else{
-               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"Token no valido, pon atencion"); 
+               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"TOKEN NO VALIDO"); 
                 echo json_encode($this->gatewayDTO->response);
             }
         }
@@ -74,7 +74,7 @@
                 }
            }
             else{
-               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"Token no valido, pon atencion"); 
+               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"TOKEN NO VALIDO"); 
                 echo json_encode($this->gatewayDTO->response);
             }
         }
@@ -111,7 +111,7 @@
                 }
            }
             else{
-               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"Token no valido, pon atencion"); 
+               $this->gatewayDTO->response = array('CODE'=>"ERROR", 'TEXT'=>"TOKEN NO VALIDO"); 
                 echo json_encode($this->gatewayDTO->response);
             }
         }
